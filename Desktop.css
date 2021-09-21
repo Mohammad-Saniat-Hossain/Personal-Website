@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* for desktop */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar design starts from here */
+.nav-logo{
+    text-align:left;
+    
+}
+.nav-logo img{
+    width: 120px;
+    height: 100px;
+}
+.nav-heading h1{
+    text-align:right;
+}
+.navbar-menu{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.navbar-menu a{
+    padding: 5px 12px;
+    margin: 20px 0;
+    background-color:transparent;
+}
+/* navbar design ends here */
+
+/* profile design starts from here */
+
+.top-weather-icon{
+    position:absolute;
+    right: 60px;
+    top: 30px;
+    transition:transform 1.5s;
+    width:120px;
+}
+.top-weather-icon:hover{
+    width:150px;
+}
+.bottom-weather-icon{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    transition: transform 1.5s;
+    width:120px;
+}
+.bottom-weather-icon:hover{
+    width:150px;
+}
+.profile-desc p{
+    width: 50%;
+    margin:20px auto;
+    text-align: center;
+}
+.profile{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/* profile design ends here */
+
+
+ /* About Me section starts from here  */
+
+.about-me-image img{
+    height: 250px;
+    width: 250px;
+}
+.about-me-desc p{
+    text-align:justify;
+}
+
+.about-me::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+
+ /* About Me section ends here */
+
+ /* Achievement contacts section starts from here */
+
+.achievement{
+    padding-right: 50px;
+}
+
+
+
+ /* Achievement contacts section ends here */
+ .contact-links{
+    position:relative;
+}
+
+.contact-links .media-buttons{
+    position:absolute;
+    margin-top:200px;
+    top:50%;
+    left:46%;
+    transform:translate(-40%,-50%);
+}
+.footer-menu{
+    margin: 0 auto;
+}
+.footer-menu a{
+    display:inline;
+    margin: 10px;
+}
